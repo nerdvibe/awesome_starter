@@ -1,0 +1,19 @@
+{
+  "name": "xunga_starter",
+  "version": "1.0.0",
+  "description": "A simple starter package with base utils for Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "starter",
+    "package"
+  ],
+  "author": "xunga",
+  "license": "GNU LGPLv3",
+  "dependencies": {
+    "chalk": "^2.0.1"
+  }
+}
