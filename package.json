@@ -1,7 +1,7 @@
 {
   "name": "xunga_starter",
-  "version": "1.0.0",
-  "description": "A simple starter package with base utils for Node",
+  "version": "1.0.2",
+  "description": "🎩 A simple NodeJS starter kit featuring better logging, multiple prototypes for strings, arrays, objects, numbers and dates.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,8 +12,17 @@
     "package"
   ],
   "author": "xunga",
-  "license": "GNU LGPLv3",
+  "license": "GPL-3.0",
   "dependencies": {
     "chalk": "^2.0.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xunga/xunga_starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xunga/xunga_starter/issues"
+  },
+  "homepage": "https://github.com/xunga/xunga_starter#readme"
 }
