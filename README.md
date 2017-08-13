@@ -11,7 +11,7 @@ Nobody likes to repeat themselfs. Here is my package with the most common helper
 
 # Features:
 
-###Logs:
+### Logs:
  - New logs methods. console.success() and console.fail()
  - Timestamp on every log
  - Colors for different log levels
