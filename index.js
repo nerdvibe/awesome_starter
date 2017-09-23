@@ -6,5 +6,6 @@ require('./prototypes/strings');
 
 const { generalCatchCallback, expressResponseError } = require('./error_handling');
 
-module.exports = generalCatchCallback;
-module.exports = expressResponseError;
+module.exports.errors = {};
+module.exports.errors.generalCatchCallback = generalCatchCallback;
+module.exports.errors.expressResponseError = expressResponseError;
