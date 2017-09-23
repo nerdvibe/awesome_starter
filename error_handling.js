@@ -7,8 +7,6 @@ function generalCatchCallback(e, functionName) {
 
 /**
  * General internal error for express
- * @param e
- * @param functionName
  */
 function expressResponseError(response, message) {
   let errorMessage = "there was an error in the request";

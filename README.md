@@ -17,7 +17,8 @@ Nobody likes to repeat themselfs. Here is my package with the most common helper
  - Colors for different log levels
 
 ### General Error handling:
-A simple function `generalCatchCallback()` that throws a console.error when is needed. E.g. when you have to write many .catch()
+- `generalCatchCallback(e, functionName)` return a console.error when is needed. E.g. when you have to write many .catch(). First parameter an Error and second parameter a string for the function name.
+- `expressResponseError(response, message)` It returns a json error message for express. It accepts the response from express as first parameter and an optional string as message.
 
 ### Multiple prototypes for the types:
 Check the folder `prototypes/`
