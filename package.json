@@ -1,6 +1,6 @@
 {
   "name": "awesome_starter",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "🎩 A simple NodeJS starter kit featuring better logging, multiple prototypes for strings, arrays, objects, numbers and dates.",
   "main": "index.js",
   "scripts": {

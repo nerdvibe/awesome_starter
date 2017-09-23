@@ -19,6 +19,7 @@ Nobody likes to repeat themselfs. Here is my package with the most common helper
 ### General Error handling:
 - `generalCatchCallback(e, functionName)` return a console.error when is needed. E.g. when you have to write many .catch(). First parameter an Error and second parameter a string for the function name.
 - `expressResponseError(response, message)` It returns a json error message for express. It accepts the response from express as first parameter and an optional string as message.
+- `expressResponseError(response, error ,message)` It returns a json error message for express with a console.error of the error. It accepts the response from express as first parameter, an Error as second parameter and an optional string as message.
 
 ### Multiple prototypes for the types:
 Check the folder `prototypes/`

@@ -4,8 +4,9 @@ require('./prototypes/numbers');
 require('./prototypes/objects');
 require('./prototypes/strings');
 
-const { generalCatchCallback, expressResponseError } = require('./error_handling');
+const { generalCatchCallback, expressResponseError, expressResponseError_silent } = require('./error_handling');
 
 module.exports.errors = {};
 module.exports.errors.generalCatchCallback = generalCatchCallback;
+module.exports.errors.expressResponseError_silent = expressResponseError_silent;
 module.exports.errors.expressResponseError = expressResponseError;
